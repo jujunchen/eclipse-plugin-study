@@ -21,3 +21,10 @@ HelloSWT
 
 ## 4. TextData
 是用Text中的setData来存储控制数据，并在后续读取使用
+
+## 5. ColorLabel
+使用Color来设置控件的颜色
+
+## 6. ImageTest
+使用图片，给控件增加图标，增加背景图片等
+
