@@ -12,6 +12,9 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
+/**
+ * 第一个SWT 示例
+ */
 public class HelloSWT extends Shell {
 
 	public static void main(String[] args) {
@@ -66,6 +69,7 @@ public class HelloSWT extends Shell {
 		
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch()) {
+				System.out.println("收到事件");
 				display.sleep();
 			}
 		}
