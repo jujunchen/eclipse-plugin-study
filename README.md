@@ -28,3 +28,15 @@ HelloSWT
 ## 6. ImageTest
 使用图片，给控件增加图标，增加背景图片等
 
+## 7. FontTest
+使用系统内置字体，自定义字体，给控件增加字体
+
+##8. TrayTest
+托盘图标，提示词，菜单
+
+##9. RegionTest
+用Region 构造不同规则的窗口
+Region类型表示由任意个多边形组成的一个区域
+
+##10. SWT_Swing_Test
+在SWT 中使用swing 控件
